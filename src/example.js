@@ -1,6 +1,7 @@
-function badFunction() {
-  var unusedVar = 42
-  console.log("This should use single quotes")
-  let anotherVar = "test"
-  return
+function example() {
+  const value = 42;
+  const anotherVar = 'test';
+  return `${anotherVar}-${value}`;
 }
+
+console.log(example());
